@@ -1,4 +1,4 @@
-Objective:Receipt Detection helps in differentiating the receipt from the background of an image which would help to decrease the workload of OCR. The overall process was seen to be faster/equally fast in most cases when the background was removed.
+Objective:Document Detection helps in differentiating the receipt from the background of an image which would help to decrease the workload of OCR. The overall process was seen to be faster/equally fast in most cases when the background was removed.
 Steps Involved and the functions which implement them:
      
                              1.Image
