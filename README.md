@@ -29,12 +29,10 @@ We sort the contours according to the area and check for the longest contour.
    Once we obtain the longest contour, we use the function approxPolyDP to find the Polygon enclosing the contour. It takes the parameter (contour,epsilon and information whether the contour is closed or open).
 It approximates a contour shape to another shape with less number of vertices depending upon the precision we specify as epsilon and returns the shape.
 We identify the 4 corners by their property and copy it as new image.
-Proof that the algorithm would work:
-    The algorithm would work its best if receipt is a significant part of the Image and as long as the background is different from the receipt. If the above conditions are met, then the receipt contour would be picked up as the biggest contour and we can extract the receipt from the background.
                             
 ## How to run the program :
 Insert your file address as the input and stages as well as the output file will get saved.
-
+The algorithm would work its best if receipt is a significant part of the Image and as long as the background is different from the receipt. If the above conditions are met, then the receipt contour would be picked up as the biggest contour and we can extract the receipt from the background.
 ## Requirements:
 Opencv and Numpy
 python                                         
